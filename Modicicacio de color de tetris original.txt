@@ -1,0 +1,14 @@
+public static final TetrisBlock LONG = new TetrisBlock(
+		new boolean[][]{{true, true, true, true}}, Color.RED);
+
+	public static final TetrisBlock LEFT_L = new TetrisBlock(new boolean[][]{
+		{true, true, true}, {true, false, false}}, Color.RED);
+
+	public static final TetrisBlock TEE = new TetrisBlock(
+		new boolean[][]{{true, true, true}, {false, true, false}}, Color.RED);
+
+	public static final TetrisBlock RIGHT_L = new TetrisBlock(new boolean[][]{
+		{true, true, true}, {false, false, true}}, Color.RED);
+
+	public static final TetrisBlock SQUARE = new TetrisBlock(new boolean[][]{
+		{true, true}, {true, true}}, Color.RED);
